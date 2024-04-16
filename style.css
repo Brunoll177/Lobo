@@ -1,0 +1,92 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+header{
+    
+}
+body{
+    background-image:url(um-lobo-em-pe-em-uma-floresta-com-um-fundo-colorido.jpg) ;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    transition-duration: 5ms;
+
+    
+
+    
+}
+main{
+    text-align: center;
+    
+    width: 500px;
+    background-color: rgba(64, 64, 64, 0.15);
+    padding: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(25px);
+    border-radius: 16px;
+
+    
+}
+main>h1{
+    font-size: 40px;
+}
+input[type=text]{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+input[type=button]{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(110, 110, 110);
+    border: 1px solid black;
+    outline: none;
+    font-size: 20px;
+    margin: 10px 0px;
+    color: white;
+    
+}
+img{
+   
+    width: 400px;
+    height: 300px;
+    border-radius: 10%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+    object-fit: cover;
+}
+#fds{
+    font-size: 30px;
+    color: white;
+}
+#re{
+    cursor: pointer;
+    font-size: 2.5em;
+    color: white;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-top: 3px;
+    display: none;
+}
+@media screen and (max-width:750px){
+    main{
+        width: 300px;
+    }
+}
+        
+        
+        
