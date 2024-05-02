@@ -17,7 +17,7 @@ body{
     align-items: center;
     justify-content: center;
     transition-duration: 5ms;
-
+    
     
 
     
@@ -84,7 +84,7 @@ img{
 }
 @media screen and (max-width:750px){
     main{
-        width: 300px;
+        width: 450px;
     }
 }
         
